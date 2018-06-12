@@ -25,6 +25,6 @@ I eventually decided not to do it, since those are only 30 seconds previews and 
 
 ## Libraries/Tools i used
 - AngularJS 1.6
-- Grunt
+- Gulp
 - Bower
 - NPM
