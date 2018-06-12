@@ -14,13 +14,13 @@ I had another design choice to face here: whether or not to auto-play the previe
 I eventually decided not to do it, since those are only 30 seconds previews and they won't represent a fully listening experience anyway, their role is just to give a hint of what the artist's style is like.
 
 ## How i created the app
-- sudo yo angular
-- sudo npm install -g generator-karma (if needed)
+- yo angular
+- npm install -g generator-karma (if needed)
 
 ## To start the app
-- `npm install -g grunt-cli`
-- `npm install -g bower`
-- `npm install`
+- `npm install --global yo bower grunt-cli`
+- `npm install -g generator-angular`
+- `yo angular`
 - `grunt serve`
 
 ## Libraries/Tools i used
