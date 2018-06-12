@@ -3,7 +3,7 @@
 Angular v1.6 app for search artists and albums powered by the Spotify API.
 
 
-## Summery
+## Summary
 
 The data displayed in the modals are artist's albums, album's tracks and artist's tracks. I chose to emphasize again the grouping of the elements so that it's crystal clear, especially on mobile, where the boundaries of a list item are.<br>
 I chose to make the list displayed scrollable and keep the pic and the details on the header always visible. This is especially useful when you are doing something along the lines of "I'm checking out a new artist's songs, so I scroll through them. Wait, how was the artist called?" and then you would have to scroll back up.<br>
