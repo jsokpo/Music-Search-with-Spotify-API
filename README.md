@@ -1,3 +1,4 @@
+
 ## Music-Search powered by Spotify
 
 Angular v1.6 app for search artists and albums powered by the Spotify API.
@@ -17,6 +18,8 @@ I eventually decided not to do it, since those are only 30 seconds previews and 
 - sudo npm install -g generator-karma (if needed)
 
 ## To start the app
+- `npm install -g grunt-cli`
+- `npm install`
 - `grunt serve`
 
 ## Libraries/Tools i used
