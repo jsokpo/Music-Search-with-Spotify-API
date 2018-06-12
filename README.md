@@ -1,7 +1,7 @@
 
 ## Music-Search powered by Spotify
 
-Angular v1.6 app for search artists and albums powered by the Spotify API.
+Angular v1.6 app for searching artists and albums powered by the Spotify API.
 
 
 ## Summary
