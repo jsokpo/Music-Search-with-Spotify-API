@@ -7,7 +7,7 @@ Angular v1.6 app for search artists and albums powered by the Spotify API.
 ## Summary
 
 The data displayed in the modals are artist's albums, album's tracks and artist's tracks. I chose to emphasize again the grouping of the elements so that it's crystal clear, especially on mobile, where the boundaries of a list item are.<br>
-I chose to make the list displayed scrollable and keep the pic and the details on the header always visible. This is especially useful when you are doing something along the lines of "I'm checking out a new artist's songs, so I scroll through them. Wait, how was the artist called?" and then you would have to scroll back up.<br>
+I chose to make the list displayed scrollable and keep the pic and the details on the header always visible. This is especially useful when you are doing something along the lines of "I'm checking out a new artist's songs, so I would scroll through them.<br>
 I chose to immediately display the modals, even if the data is not yet available, to give the illusion of the website running faster and to display a loader in the meantime, so that the user knows the website is processing data and had not hung somewhere.<br>
 Finally, I have implemented an artist's modal, in which previews of his best songs are displayed and can be played. 
 I had another design choice to face here: whether or not to auto-play the previews. 
@@ -19,6 +19,7 @@ I eventually decided not to do it, since those are only 30 seconds previews and 
 
 ## To start the app
 - `npm install -g grunt-cli`
+- `npm install -g bower`
 - `npm install`
 - `grunt serve`
 
