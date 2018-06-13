@@ -9,7 +9,7 @@
  */
 angular.module('compucorpJobProjectApp')
   .controller('MainCtrl', ['$scope', '$http', '$q', function ($scope, $http, $q) {
-  	var baseUrl = 'https://accounts.spotify.com/api/token?grant_type=authorization_code&response_type=code&redirect_uri=http://www.example.com/callback&client_id=fcecfc72172e4cd267473117a17cbd4d&client_secret=a6338157c9bb5ac9c71924cb2940e1a7';
+  	var baseUrl = 'https://accounts.spotify.com/api/token?grant_type=authorization_code&response_type=code&redirect_uri=redirect_uri&client_id=fcecfc72172e4cd267473117a17cbd4d&client_secret=a6338157c9bb5ac9c71924cb2940e1a7';
 
   	$scope.getAlbumDetails = function(artist, itemId) {
   		if (artist) {
